@@ -1,48 +1,36 @@
 export const cardsData = [
   {
     id: 0,
-    title: "Component Librarys",
+    title: "Drag and Drop items to re-order",
     components: [
       {
         id: 100,
-        name: "material ui"
+        name: "Scotland Island",
+        place: 'Sydney, Australia',
+        image: '/images/scotland.jfif'
       },
       {
         id: 200,
-        name: "bootstrap"
+        name: "Bridge Island",
+        place: 'Dolor, Sit amet',
+        image: '/images/bridge.jfif'
       },
-    ]
-  },
-  {
-    id: 1,
-    title: "Javascript Librarys",
-    components: [
       {
         id: 300,
-        name: "react"
+        name: "Clam Bar",
+        place: 'Etcetera veni, vidi vici',
+        image: '/images/clambar.jfif'
+
       },
       {
         id: 400,
-        name: "node"
-      },
-    ]
-  },
-  {
-    id: 2,
-    title: "react helping Librarys",
-    components: [
-      {
-        id: 500,
-        name: "redux"
-      },
-      {
-        id: 600,
-        name: "recoil"
-      },
+        name: "Vivid Festival",
+        place: 'Sydney, Australia',
+        image: '/images/vived.jfif'
+
+      }
     ]
   }
-
-
 ]
 
 
